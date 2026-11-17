@@ -1,0 +1,324 @@
+/* --------------------------------
+   Works detail pages
+--------------------------------- */
+.article {
+  padding: 80px 0;
+}
+
+.article-container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.article-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.article-body {
+  max-width: 720px;
+  margin: 0 auto 80px;
+}
+
+.article-body h3 {
+  position: relative;
+  margin-bottom: 5px;
+  padding-left: 1em;
+  font-size: 18px;
+}
+
+.article-body img {
+  width: 100%;
+  height: auto;
+}
+
+.article-body h3:not(:first-child) {
+  margin-top: 50px;
+}
+
+.article-body h3::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  content: "";
+  border-radius: 3px;
+  background-color: #333;
+}
+
+.article-body p {
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.home-link {
+  text-align: center;
+}
+
+/* Works 7 / dental detail pages */
+.works7-page {
+  padding-top: 76px;
+  background-color: #fff;
+}
+
+.works7-article {
+  padding: 56px 0 96px;
+}
+
+.works7-label {
+  width: fit-content;
+  margin: 0 auto 12px;
+  padding: 5px 14px;
+  border: 1px solid #395f72;
+  border-radius: 2px;
+  color: #395f72;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+
+.works7-title {
+  margin-bottom: 10px;
+  color: #395f72;
+  font-size: 28px;
+  text-align: center;
+}
+
+.works7-subtitle {
+  margin-bottom: 42px;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+}
+
+.works7-body {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.works7-overview {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(260px, .8fr);
+  gap: 42px;
+  margin-bottom: 78px;
+}
+
+.works7-summary {
+  margin-bottom: 60px;
+  padding: 24px;
+  background-color: #f4f6f8;
+}
+
+.works7-summary h3,
+.works7-section h3 {
+  margin-bottom: 15px;
+  color: #395f72;
+  font-size: 18px;
+  letter-spacing: .06em;
+}
+
+.works7-summary p,
+.works7-section p,
+.works7-section li {
+  color: #444;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.works7-summary dl {
+  margin-top: 20px;
+}
+
+.works7-summary dt {
+  margin-top: 12px;
+  color: #395f72;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.works7-summary dd {
+  color: #444;
+  font-size: 12px;
+}
+
+.works7-section {
+  margin-bottom: 76px;
+}
+
+.works7-section-layout {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.works7-section > h2 {
+  margin-bottom: 28px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #9bcbd0;
+  color: #395f72;
+  font-size: 21px;
+  letter-spacing: .08em;
+}
+
+.works7-section-copy {
+  margin-right: 60px;
+}
+
+.works7-section-copy p + p {
+  margin-top: 18px;
+}
+
+.point-1-illustration {
+  display: block;
+  width: 60%;
+  margin: 40px auto;
+}
+
+.point-1-image {
+  width: 60%;
+}
+
+.works7-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.works7-tool {
+  min-width: 120px;
+  padding: 12px 20px;
+  border-radius: 3px;
+  background-color: #d9d9d9;
+  color: #333;
+  font-size: 12px;
+  text-align: center;
+}
+
+.works7-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.works7-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 3px;
+  background-color: #395f72;
+  color: #fff;
+  font-size: 12px;
+}
+
+.works7-site-preview {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 170px;
+  gap: 20px;
+  align-items: start;
+}
+
+.works7-site-preview .works7-placeholder {
+  min-height: 620px;
+}
+
+.works7-site-preview .works7-placeholder--side {
+  min-height: 430px;
+}
+
+.works7-note {
+  margin-top: 12px;
+  color: #777;
+  font-size: 11px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .article {
+    padding: 50px 0;
+  }
+
+  .article-body h3 {
+    padding-left: .8em;
+    font-size: 16px;
+  }
+
+  .article-body h3:not(:first-child) {
+    margin-top: 30px;
+  }
+
+  .article-body p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .works7-page {
+    padding-top: 57px;
+  }
+
+  .works7-article {
+    padding: 38px 0 60px;
+  }
+
+  .works7-title {
+    font-size: 22px;
+  }
+
+  .works7-subtitle {
+    margin-bottom: 28px;
+    font-size: 11px;
+  }
+
+  .works7-body {
+    padding: 0 15px;
+  }
+
+  .works7-overview,
+  .works7-section-grid,
+  .works7-site-preview {
+    display: block;
+  }
+
+  .works7-overview,
+  .works7-section {
+    margin-bottom: 54px;
+  }
+
+  .works7-placeholder--hero {
+    min-height: 210px;
+    margin-bottom: 22px;
+  }
+
+  .works7-summary {
+    padding: 18px;
+  }
+
+  .works7-section > h2 {
+    font-size: 18px;
+  }
+
+  .works7-section-grid--reverse .works7-section-copy,
+  .works7-section-grid--reverse .works7-section-image {
+    order: initial;
+  }
+
+  .works7-section-image {
+    margin-top: 22px;
+  }
+
+  .works7-site-preview .works7-placeholder,
+  .works7-site-preview .works7-placeholder--side {
+    min-height: 260px;
+    margin-bottom: 16px;
+  }
+
+  .works7-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
