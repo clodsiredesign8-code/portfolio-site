@@ -22,8 +22,22 @@ async function init() {
   // （例）タイトルセクション
   // 手順5で入れたHTMLの中のwork-titleというIdの場所の中身を、JsonデータのworkTitleというキーの値にする
   document.getElementById("work-title").textContent = data.workTitle;
-  document.getElementById("work-one-phrase").textContent =data.workOnePhrase;
+  document.getElementById("work-one-phrase").textContent = data.workOnePhrase;
+
+  // サムネイル
+  document.getElementById("work-overview-img").src = data.workOverviewImg;
+  document.getElementById("work-overview-img").alt = data.workTitle;
   
+  // 作品概要
+  document.getElementById("work-category").textContent = data.workCategory;
+  document.getElementById("work-period").textContent = data.workPeriod;
+  document.getElementById("work-role").textContent = data.workRole;
+  document.getElementById("work-skill").textContent = data.workSkill;
+  document.getElementById("work-purpose").textContent = data.workPurpose;
+  document.getElementById("work-target").textContent = data.workTarget;
+
+  // アピールポイント
+
 }
 
 init();
