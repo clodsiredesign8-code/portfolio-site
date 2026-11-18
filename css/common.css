@@ -7,8 +7,14 @@ img { max-width: 100%; height: auto; vertical-align: bottom; border-style: none;
 .sp-only { display: none; }
 
 /* Shared layout 背景・文字色・タイトルのスタイル */
-.wrapper { padding-top: 0; }
-.section { padding: 90px 0; }
+.wrapper {
+  padding-top: 0;
+}
+
+.section {
+  padding: 90px 0;
+}
+
 .section:nth-of-type(odd) { background-color: #f4f6f8; }
 .container { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
 .title { margin-bottom: 40px; color: #395f72; font-size: 34px; font-weight: bold; line-height: 1; text-align: center; letter-spacing: .05em; }

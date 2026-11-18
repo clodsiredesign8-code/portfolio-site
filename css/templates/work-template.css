@@ -18,7 +18,7 @@ article {
 }
 
 /* ====================タイトルセクション==================== */
-.work-title-section {
+#work-title-section {
   text-align: center;
   margin-bottom: 42px;
 }
@@ -28,18 +28,24 @@ article {
   color: #395f72;
 }
 
-.work-one-phrase {
-  margin-bottom: 10px;
+#work-one-phrase {
+  margin-bottom: 20px;
   color: #666;
-  font-size: 12px;
+  font-size: 14px;
 }
 
-.work-link {
-  font-size: 12px;
+#work-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #395F72;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
 }
 
 /* ======================サムネイル・作品概要セクション======================== */
-.work-overview-section {
+#work-overview-section {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(260px, .8fr);
   gap: 42px;
@@ -47,13 +53,13 @@ article {
 }
 
 /* 作品概要 */
-.work-summary {
+#work-summary {
   margin-bottom: 60px;
   padding: 24px;
   background-color: #f4f6f8;
 }
 
-.work-summary h3,
+#work-summary h3,
 .work-description-item h3 {
   margin-bottom: 15px;
   color: #395f72;
@@ -61,7 +67,7 @@ article {
   letter-spacing: .06em;
 }
 
-.work-summary p,
+#work-summary p,
 .work-description-item p,
 .work-description-item li {
   color: #444;
@@ -69,25 +75,25 @@ article {
   line-height: 1.9;
 }
 
-.work-summary dl {
+#work-summary dl {
   margin-top: 20px;
 }
 
-.work-summary dt {
+#work-summary dt {
   margin-top: 12px;
   color: #395f72;
   font-size: 12px;
   font-weight: 700;
 }
 
-.work-summary dd {
+#work-summary dd {
   color: #444;
   font-size: 12px;
 }
 
 /* =======================説明セクション================= */
 
-.work-description-section {
+#work-description-section {
   margin-bottom: 80px;
 }
 
@@ -118,7 +124,7 @@ article {
 
 /* ==========全体イメージアイテム=========== */
 /* タブ */
-.works-detail-site-preview-tabs {
+#work-preview-tabs {
   display: flex;
   gap: 8px;
   margin-bottom: 24px;
@@ -152,13 +158,13 @@ article {
   height: auto;
 }
 
-#sp {
+#work-sp-panel {
   margin: 0 auto;
   width: 30%; 
 }
 
 /*======== works一覧へ========= */
-.home-link {
+#work-home-link {
   text-align: center;
 }
 
@@ -174,35 +180,35 @@ article {
   }
 
   /* ==========タイトルセクション======== */
-  .work-title-section {
+  #work-title-section {
     text-align: center;
     margin-bottom: 28px;
   }
 
-  .work-title {
+  #work-title {
     font-size: 24px;
   }
 
-  .work-one-phrase {
+  #work-one-phrase {
     font-size: 12px;
   }
 
-  .work-link {
+  #work-link {
     font-size: 12px;
   }
 
   /* =======サムネイル・作品概要セクションと説明セクション======= */
-  .work-overview-section,
+  #work-overview-section,
   .work-description-item-layout {
     display: block;
   }
 
-  .work-overview-section,
+  #work-overview-section,
   .work-description-item {
     margin-bottom: 54px;
   }
   /* 作品概要 */
-  .work-summary {
+  #work-summary {
     padding: 18px;
   }
 

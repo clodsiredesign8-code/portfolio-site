@@ -16,10 +16,14 @@ async function init() {
 
   // 手順5：HTMLの入れ込み作業：HTMLファイルのwork-body要素の中身に手順1.2で作ったhtmlを代入
   document.getElementById("work-body").innerHTML = html;
+
+  // ====================ここからが入れ込みようの指示=====================
   // 手順6：動的要素の入れ込み作業：
-  // （例）タイトル：手順5で入れたHTMLの中のwork-titleというIdの場所の中身を、
-  // JsonデータのworkTitleというキーの値にする
+  // （例）タイトルセクション
+  // 手順5で入れたHTMLの中のwork-titleというIdの場所の中身を、JsonデータのworkTitleというキーの値にする
   document.getElementById("work-title").textContent = data.workTitle;
+  document.getElementById("work-one-phrase").textContent =data.workOnePhrase;
+  
 }
 
 init();
