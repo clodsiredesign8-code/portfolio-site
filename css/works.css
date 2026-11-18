@@ -43,7 +43,7 @@
   padding: 0 20px;
 }
 
-/* Simple detail pages use the shared outer layout with a narrower reading column. */
+/* ==============詳細な作品ページのレイアウト=============== */
 .works-detail-content {
   max-width: 720px;
   margin: 0 auto 80px;
@@ -93,6 +93,7 @@
   margin-bottom: 78px;
 }
 
+/* 作品概要 */
 .works-detail-summary {
   margin-bottom: 60px;
   padding: 24px;
@@ -135,6 +136,7 @@
   margin-bottom: 76px;
 }
 
+/* 各セクション */
 .works-detail-section-layout {
   display: flex;
   margin-bottom: 60px;
