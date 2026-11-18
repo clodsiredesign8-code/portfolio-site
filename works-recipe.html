@@ -50,16 +50,14 @@
               <div class="works-detail-summary">
                 <h3>作品概要</h3>
                 <dl>
-                  <dt>クライアント</dt>
-                  <dd>架空のハウスメーカー</dd>
-                  <dt>依頼内容</dt>
-                  <dd>コーポレートサイトのデザインカンプ4ページ（トップ、実績一覧、実績詳細、お問い合わせ完了）</dd>
+                  <dt>どんなアプリか</dt>
+                  <dd>「うちのレシピ」は、家庭で作った料理のレシピを記録し、家族グループ内で共有できるWebアプリケーション</dd>
                   <dt>制作目的</dt>
-                  <dd>Webを通した新規顧客の獲得、お問い合わせ数の増加、自社製品の認知度と信頼度向上</dd>
+                  <dd>家庭の味や調理の工夫を世代を超えて共有・継承し、料理を通じた家族間のコミュニケーションを促進すること</dd>
                   <dt>ターゲット</dt>
-                  <dd>子供がおりマイホームに興味を持っている、<br>共働きの30~50代夫婦<br>SNSで情報で収集しており、土日に住宅相談会に行くことを検討している</dd>
+                  <dd>家庭内で料理を担当する人とその家族や親</dd>
                   <dt>制作時期/期間</dt>
-                  <dd>2026年7月/3週間</dd>
+                  <dd>2026年10月~制作中</dd>
               </div>
             </section>
 
@@ -71,20 +69,18 @@
               </div>
             </section> -->
 
-            <!-- こだわりポイント -->
+            <!-- 制作過程 -->
             <section class="works-detail-section">
-              <h2>こだわりポイント</h2>
+              <h2>制作過程</h2>
+              <p>アプリケーション開発の流れに沿って制作を進めました。</p>
               <div class="works-detail-section-layout">
                 <div class="works-detail-section-copy">
-                  <h3>01. ユーザー理解と作業療法</h3>
+                  <h3>1.企画</h3>
+                  <p>期間：1週間</p>
                   <p>
-                    UI/UXについて学んだ際に知ったペルソナ設計の項目を参考に、基本情報だけでなく、経済状況や趣味、1日の流れ、忙しさなど、インターネットでの調査と自身の想像力をもとに、できるだけ具体的に書き出しました。<br />
-                    価値観やハウスメーカーサイトに何を期待し、どのような不安を感じるのかも明確にすることで、その後のサイト設計に活かしました。
+                    以前より構想のあったレシピアプリのイメージをリーンキャンバスを用いて整理しました。
                   </p>
-                  <p>
-                    ユーザーについて考えることは、作業療法でクライアントの生活背景や価値観を捉えることに似ていると感じています。
-                    作業療法で対象者の生活や思考、感情を想像するときと同じように、ユーザーの立場に立って「ハウスメーカーサイトに何を求めるだろう？」と想像することで、見えてくるものがありました。
-                  </p>
+                  <a href="https://docs.google.com/spreadsheets/d/11zGJkLboU66qIsxKf5m-poAfwSHa04x7VfKpQNXE6mI/edit?gid=431333085#gid=431333085">リーンキャンバス</a>
                   <img
                     class="point-1-illustration"
                     src="img/works-7/seal-thinking.png"
@@ -95,19 +91,46 @@
                   <img src="img/works-7/design-highlight-1.png" alt="ペルソナ設計の画像" />
                 </div>
               </div>
-            </section>
-
-            <section class="works-detail-section">
               <div class="works-detail-section-layout">
                 <div class="works-detail-section-copy">
-                  <h3>02. サイト目的から考えた施工実績の絞り込み機能</h3>
-                  <p>
-                    サイトの目的である「お問い合わせ」を、ユーザーはどのような理由や流れで行うのかを考えました。<br />
-                    ユーザー理解をベースに想像し、「自分たちの理想のマイホームに似た施工実績があるから、このハウスメーカーに話を聞きたい」となるのではないかと考えました。
+                  <h3>2.要件定義</h3>
+                  <p>期間：1週間</p>
+                  <p>作りたいものと今できることを踏まえて、フェーズを分けて開発を進めることにしました。
+                    フェーズ1としてフロントエンドの実装を目標に定め、そのために必要な情報を要件定義書にまとめました。
                   </p>
+                  <a href="https://docs.google.com/document/d/1FyOCpu5NBjTCLGhGM5X-1k0UqOYtrMov/edit">要件定義書</a>
+                </div>
+                <div class="works-detail-section-image point-2-image">
+                  <img
+                    src="img/works-7/design-highlight-2.png"
+                    alt="施工実績の絞り込み機能の画像"
+                  />
+                </div>
+              </div>
+              <div class="works-detail-section-layout">
+                <div class="works-detail-section-copy">
+                  <h3>3.設計</h3>
+                  <p>期間：2週間</p>
                   <p>
-                    そこで、Figmaのプロトタイプにて、施工実績一覧ページで「気になる物件に絞り込む」というアクションを行えるよう、絞り込みモーダルを追加しました。
-                    このように、常にサイトの目的に紐づけてデザインを考えることを大切にしています。
+                    基本設計としてユースケース図と画面遷移図を作成し、詳細設計としてデザインカンプを作成しました。
+                    デザインカンプでは、使用場面を想定し、モバイルファーストで作成しました。
+                    カンプ完成後に実装をスムーズに行うために画面仕様書の作成にも取り組みました。
+                  </p>
+                  <a href="https://www.figma.com/design/RGzHN2k6q5UGd7QUgAaKqj/%E3%81%86%E3%81%A1%E3%81%AE%E3%83%AC%E3%82%B7%E3%83%94?node-id=398-11402&t=gnVhlxGPjYmpKPUm-1">デザインカンプ</a>
+                </div>
+                <div class="works-detail-section-image point-2-image">
+                  <img
+                    src="img/works-7/design-highlight-2.png"
+                    alt="施工実績の絞り込み機能の画像"
+                  />
+                </div>
+              </div>
+              <div class="works-detail-section-layout">
+                <div class="works-detail-section-copy">
+                  <h3>4.実装</h3>
+                  <p>期間：1か月（予定）</p>
+                  <p>
+                    Reactを用いて実装予定です。
                   </p>
                 </div>
                 <div class="works-detail-section-image point-2-image">
@@ -119,17 +142,14 @@
               </div>
             </section>
 
+
             <section class="works-detail-section">
               <h2>デザインについて</h2>
               <div class="works-detail-section-layout">
                 <div class="works-detail-section-copy">
                   <h3>色</h3>
                   <p>
-                    依頼内容に希望する色・イメージとして「青系or緑系、シンプルな色使い、落ち着いた色調」と記載がありました。<br>
-                    家の素材には木が使われているため、自然を連想できる色として緑を選びました。<br>
-                    また、子どもを思う家族がターゲットであることから、落ち着きはありつつも子どもにも親しみやすい、パステル調のやわらかい緑を意識しました。<br>
-                    一度メインカラーを仮決めした上で、モックアップ制作の段階で、ロゴやメインビジュアルとのバランスを見ながらメインカラーを調整しました。<br>
-                    その上でアクセントカラーは、黒文字・白文字のそれぞれと組み合わせた際の視認性を意識して、色相は大きく変えずに彩度と明度を調整し、メインカラーとの相性も考慮しながら決定しました。
+                    オレンジと茶色、あたたかみ、ログハウス、差別化、ガイドライン作成
                   </p>
                 </div>
                 <div class="works-detail-section-image">
@@ -144,8 +164,7 @@
                 <div class="works-detail-section-copy">
                   <h3>フォント</h3>
                   <p>
-                    洗練された上質な雰囲気を表現するため、コピーや大きな見出しには明朝体を採用しました。<br>
-                    一方、本文やカード内の小さめの見出しには、可読性を優先してゴシック体を使用。デザイン性と読みやすさのバランスを考え、用途に応じてフォントを使い分けました。
+                    読みやすさを考えて基本はNotoSansJP、手書きのようなイメージから見出しなど一部にけいフォントを使用
                   </p>
                 </div>
                 <div class="works-detail-section-image">
@@ -160,9 +179,8 @@
                 <div class="works-detail-section-copy">
                   <h3>レイアウト</h3>
                   <p>
-                    希望するイメージにあった「洗練されたクリーンな雰囲気」を表現するため、余白の取り方や間隔に統一感を持たせることを意識しました。<br>
-                    ワイヤーフレームの段階で必要な情報をすべて整理した上で、全体のバランスを確認しながら、見出し下のラインなどのあしらいを追加しました。<br>
-                    また、実績紹介ページでは写真の配置にこだわりました。スクロール量が多いページは、最後まで見てもらえない可能性があると考え、ページの縦幅をなるべく増やさず、かつ写真を大きく見せられるようカルーセルを採用しました。
+                    バリアブルを使用して余白にもルールを設けるよう意識した。
+                    ボタンの押しやすさなど、アプリケーションとしての最小ラインや推奨サイズを調べて守るように意識した。
                   </p>
                 </div>
                 <div class="works-detail-section-image">
@@ -176,32 +194,20 @@
             </section>
 
             <section class="works-detail-section">
-              <h2>使用技術 Figma</h2>
+              <h2>使用技術 Figma/React</h2>
+              <h3>デザインカンプ　Figma</h3>
               <p>
-                Figmaで参考サイトやコンポーネントをまとめ、ワイヤーフレームからプロトタイプまで作成しました。
-                <br><br>
+                中間成果物としてデザインカンプを作成。
               </p>
-              <h3>プロトタイプの想定ユーザーフロー</h3>
+              <h3>実装　React</h3>
               <p>
-                当時の技術でできるところまでの表現で以下のユーザーフローを想定してプロトタイプを作成しました。<br><br>
-                1. TOP画面の「実績一覧へ」またはヘッダーの「WORKS」を押下し、実績一覧画面へ遷移<br>
-                2. 「タブで絞り込む」を押下<br>
-                3. 絞り込みモーダルで「四人家族以上」「3階建て」を選択し、「絞り込み」ボタンを押下<br>
-                4. 絞り込み結果画面へ遷移し、選択した条件が反映された状態を確認<br>
-                5. 一番上の実績カード「開放感あふれるナチュラルリビングの家」を押下し、実績詳細画面へ遷移<br>
-                6. ヘッダーの「お問い合わせ」またはフロートボタン「まずはお気軽にご相談ください。」からお問い合わせ画面へ遷移<br>
-                7. 「送信」ボタンを押下し、お問い合わせ完了画面へ遷移<br>
-                8. 「TOPに戻る」ボタンを押下し、TOP画面へ戻る
+                現在学習中。
               </p>
 
-              <div class="works-detail-links">
-                <a class="works-detail-link" href="https://www.figma.com/proto/rlEVkAypBKA0ObZoxtx0Y8/%E3%83%8F%E3%82%A6%E3%82%B9%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%88?node-id=8230-6743&p=f&viewport=35%2C117%2C0.05&t=QiqVOwTZmITjy1d3-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8230%3A6743&page-id=8230%3A6634">PC版プロトタイプを見る</a>
-                <a class="works-detail-link" href="https://www.figma.com/proto/rlEVkAypBKA0ObZoxtx0Y8/%E3%83%8F%E3%82%A6%E3%82%B9%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%88?node-id=8151-1286&p=f&viewport=255%2C46%2C0.07&t=jWZh2cwqqzzEAhYO-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8151%3A1286&page-id=8151%3A1038">スマホ版プロトタイプを見る</a>
-              </div>
             </section>
 
             <section class="works-detail-section">
-              <h2>サイト全体</h2>
+              <h2>主要画面のデザイン</h2>
               <div class="works-detail-site-preview">
                 <div>
                   <img src="img/works-7/top-pc.png" alt="TOP画面PC版" />

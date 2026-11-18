@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>ハウスメーカーサイト | MAI WORKS</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 読み込むCSSファイル -->
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link href="../css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="../css/common.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="../css/works.css" media="all" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="wrapper work-page">
+      <header class="header">
+        <div class="container">
+          <h1 class="header-logo"><a href="index.html">MAI WORKS</a></h1>
+          <nav class="gnav">
+            <ul class="gnav-list">
+              <li class="gnav-item"><a href="../index.html#works">WORKS</a></li>
+              <li class="gnav-item"><a href="../index.html#skill">SKILL</a></li>
+              <li class="gnav-item"><a href="../index.html#about">ABOUT</a></li>
+              <!-- <li class="gnav-item"><a href="index.html#contact">CONTACT</a></li> -->
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="content">
+        <article>
+          <!-- ==========タイトルセクション=========== -->
+          <div class="work-container">
+            <section class="work-title-section">
+              <h1 class="work-title">タイトル</h1>
+              <p class="work-one-phrase">ひとことで作品を説明</p>
+              <a href="#" class="work-link">ある場合は作品のURL</a>
+            </section>
+
+
+            <!-- =========サムネイル・作品概要 ============= -->
+            <section class="work-overview-section" aria-label="作品概要">
+              <div class="work-overview-section-media">
+                <img class="work-overview-section-img" src="" alt=""/>
+              </div>
+              <div class="work-summary">
+                <h3>作品概要</h3>
+                <dl>
+                  <dt>制作カテゴリー</dt>
+                  <dd class="work-category"></dd>
+                  <dt>制作時期</dt>
+                  <dd class="work-period"></dd>
+                  <dt>制作範囲</dt>
+                  <dd class="work-role"></dd>
+                  <dt>使用技術</dt>
+                  <dd class="work-skill"></dd>
+                  <dt>制作の目的</dt>
+                  <dd class="work-purpose"></dd>
+                  <dt>ターゲット</dt>
+                  <dd class="work-target"></dd>
+                </dl>
+              </div>
+            </section>
+
+            <!-- ==========説明セクション================= -->
+            <section class="work-description-section">
+
+              <!-- ===========アピールポイント============= -->
+              <div class="work-description-item">
+                <h2>アピールポイント</h2>
+                <div class="work-description-item-layout">
+                  <div class="work-description-item-copy">
+                    <h3></h3>
+                    <p></p>
+                  </div>
+                  <div class="work-description-item-media">
+                    <img class="work-description-item-img" src="" alt=""/>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ===========デザインについて============= -->
+              <div class="work-description-item">
+                <h2>デザイン</h2>
+                <div class="work-description-item-layout">
+                  <div class="work-description-item-copy">
+                    <h3></h3>
+                    <p></p>
+                  </div>
+                  <div class="work-description-item-media">
+                    <img class="work-description-item-img" src="" alt=""/>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ===========スキル============= -->
+              <div class="work-description-item">
+                <h2>スキル</h2>
+                <div class="work-description-item-layout">
+                  <div class="work-description-item-copy">
+                    <h3></h3>
+                    <p></p>
+                  </div>
+                  <div class="work-description-item-media">
+                    <img class="work-description-item-img" src="" alt=""/>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ===========全体イメージ============= -->
+              <div class="work-description-item">
+                <h2>全体イメージ</h2>               
+                <div class="work-preview">
+                  <div class="work-preview-tabs">
+                    <button class="preview-tab is-active" data-target="pc">
+                      PC
+                    </button>
+                    <button class="preview-tab" data-target="sp">
+                      SP
+                    </button>
+                  </div>
+                  <div class="work-preview-content">
+                    <div class="preview-panel is-active" id="pc">
+                      <img class="work-pc-img" alt="TOP画面PC版" />
+                    </div>
+                    <div class="preview-panel" id="sp">
+                      <img src="work-sp-img" alt="TOP画面スマホ版" />
+                    </div>
+                  </div>
+                </div>                
+              </div>
+            </section>
+
+            <div class="home-link">
+              <a href="../index.html#works">Works一覧へ</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="page-top" id="js-page-top">
+          <span class="material-icons-outlined">expand_less</span>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="copyright">&copy;MAI WORKS</div>
+      </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>

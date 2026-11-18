@@ -1,6 +1,6 @@
 $(function () {
 
-  //ページ内スクロール
+  //index.htmlでページ内リンクでスクロールするときにスムーズにするやつ
   var navHeight = $(".header").outerHeight();
 
   $('a[href^="#"]').on("click", function () {
@@ -11,7 +11,7 @@ $(function () {
     return false;
   });
 
-  //ページトップ
+  //ページトップに戻るやつ
   $("#js-page-top").on("click", function () {
     $("body,html").animate({ scrollTop: 0, }, 300);
     return false;
