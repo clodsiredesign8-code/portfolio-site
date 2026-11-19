@@ -6,12 +6,20 @@ async function init() {
 
   // 手順1：templateにHTMLのテンプレートを取得してきたレスポンスオブジェクト（箱）を代入し、
   // await fetch()を使って代入されるまで待つ
-  const template = await fetch("../../templates/work-template.html");
+  // Works pages live one directory below the site root. Keep these URLs
+  // relative to that root so the site also works from a GitHub Pages project path.
+  const template = await fetch("../templates/work-template.html");
+  if (!template.ok) {
+    throw new Error(`Failed to load work template: ${template.status} ${template.url}`);
+  }
   // 手順2：レスポンスオブジェクトのテキスト（中身）をhtmlに代入
   const html = await template.text();
  
   // 手順3：同じようにawait fetch()で現在のHTMLファイルと同じ名前のJSONファイルを取ってくる
-  const response = await fetch(`../../data/${workName}.json`);
+  const response = await fetch(`../data/${workName}.json`);
+  if (!response.ok) {
+    throw new Error(`Failed to load work data: ${response.status} ${response.url}`);
+  }
   // 手順4：JSONファイルの中身のデータをdataに代入
   const data = await response.json();
 
