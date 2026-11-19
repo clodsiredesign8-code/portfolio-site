@@ -97,7 +97,10 @@ async function init() {
         targetBlock.querySelector(".work-description-content").classList.add("full-width");
       }
 
-      // 処理3：indexが0でなければいま作ったtargetBlockを要素内に追加
+      // 処理3：個別で設定したいCSS用にセットごとに個別idを振る
+      targetBlock.id = `${target}-${index}`;
+
+      // 処理4：indexが0でなければいま作ったtargetBlockを要素内に追加
       if ( index !== 0){
         targetSection.appendChild(targetBlock);
       }
@@ -111,7 +114,55 @@ async function init() {
   for (const target of targets) {
     renderRepeatedElements(target);
   }
-  
-}
+
+  // ============================4.全体表示セクション====================================
+  // 全体の流れ：PCSP両方なし・両方あり・PCのみなし・SPのみなし、の4条件分岐で表示を変える
+  // 4-1.準備
+  const fullviewSection = document.getElementById("work-fullview-section");
+  const pcImg = document.getElementById("work-pc-img");
+  const spImg = document.getElementById("work-sp-img");
+
+  const pcTab = document.querySelector(`[data-target="pc-panel"]`);
+  const spTab = document.querySelector(`[data-target="sp-panel"]`);
+
+  const pcPanel = document.getElementById("pc-panel");
+  const spPanel = document.getElementById("sp-panel");
+
+  // 4-2.if文で条件分岐
+  if (!data.workPcImg && !data.workSpImg) {
+    // 分岐1：両方ない場合
+    fullviewSection.hidden = true;
+  } else {
+    // 分岐2：どっちかでもある場合はそれぞれあるか確かめてからパスを入れる
+    if(data["workPcImg"]) {
+      pcImg.src = data["workPcImg"];
+    }
+    if(data["workSpImg"]) {
+      spImg.src = data["workSpImg"];
+    }
+
+    // 分岐3：その上で、pcがなかった時はpcのタブとパネルを隠し、SPのタブとパネルにis-activeクラスを追加
+    if (!data.workPcImg) {
+      // PCのタブとパネルを隠して非選択状態にする
+      pcTab.hidden = true;
+      pcTab.classList.remove("is-active");
+      pcPanel.hidden = true;
+      pcPanel.classList.remove("is-active");
+      // SPのタブとパネルを選択状態にする
+      spTab.classList.add("is-active");
+      spPanel.classList.add("is-active");
+    };
+
+    // 分岐4：spがなかったらspのタブとパネルを隠す
+    if(!data.workSpImg) {
+      spTab.hidden = true;
+      spPanel.hidden = true;
+      // 元々PCにis-activeがあるので隠すだけでOK
+    };
+  };
+
+  // 4-3.work.jsで定義したinitFullviewTabs()関数を実行
+  initFullviewTabs();
+};
 
 init();

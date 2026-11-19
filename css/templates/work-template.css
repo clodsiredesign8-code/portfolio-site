@@ -92,14 +92,14 @@ article {
 .work-description-item > h2 {
   margin-bottom: 28px;
   padding-bottom: 9px;
-  border-bottom: 1px solid #9bcbd0;
+  border-bottom: 2px solid #9bcbd0;
   color: #395f72;
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: .08em;
 }
 
 
-/* ===========説明アイテム========== */
+/* ===========説明セット========== */
 .work-description-set {
   display: flex;
   margin-bottom: 60px;
@@ -118,15 +118,15 @@ article {
   width: 40%;
 }
 
-/* ==========全体イメージアイテム=========== */
+/* ==========全体表示セクション=========== */
 /* タブ */
-#work-preview-tabs {
+#work-fullview-tabs {
   display: flex;
   gap: 8px;
   margin-bottom: 24px;
 }
 
-.preview-tab {
+.fullview-tab {
   padding: 8px 24px;
   cursor: pointer;
   border: 1px solid #395f72;
@@ -134,21 +134,21 @@ article {
   color: #395f72;
 }
 
-.preview-tab.is-active {
+.fullview-tab.is-active {
   background-color: #395f72;
   color: #fff;
 }
 
 /* 画像切り替え */
-.preview-panel {
+.fullview-panel {
   display: none;
 }
 
-.preview-panel.is-active {
+.fullview-panel.is-active {
   display: block;
 }
 
-.preview-panel img {
+.fullview-panel img {
   display: block;
   width: 100%;
   height: auto;
