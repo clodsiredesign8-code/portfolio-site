@@ -100,18 +100,22 @@ article {
 
 
 /* ===========説明アイテム========== */
-.work-description-item-layout {
+.work-description-set {
   display: flex;
   margin-bottom: 60px;
 }
-
-.work-description-item-copy {
+/* 画像がある場合（デフォルト） */
+.work-description-content {
   margin-right: 60px;
   width: 60%;
 }
+/* 画像がない場合（JSで.full-widthを追加したとき） */
+.work-description-content.full-width {
+  width: 100%;
+}
 
-.work-description-item-copy p {
-
+.work-description-media {
+  width: 40%;
 }
 
 /* ==========全体イメージアイテム=========== */
@@ -191,7 +195,7 @@ article {
 
   /* =======サムネイル・作品概要セクションと説明セクション======= */
   #work-overview-section,
-  .work-description-item-layout {
+  .work-description-set {
     display: block;
   }
 
