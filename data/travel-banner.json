@@ -5,18 +5,30 @@
   "workCategory" : "自主制作",
   "workPeriod": "2026年7月・3日",
   "workRole": "デザイン",
-  "workSkill": "Figma",
+  "workSkill": "Figma・Canva",
   "workPurpose": "キャンペーンの申し込み数増加、夏旅への興味関心の向上",
   "workTarget": "20~40代、非日常を求めて南国への旅行や夏旅を考えている人",
-  "workAppeals":[
+  "workAppealSection":[
     {
       "workAppealHeading": "1.学びを活かすための自主制作",
-      "workAppealText": "スクール入学後に学んだことをすぐに実践するために、早い段階で自主制作に取り組みました。",
-      "workAppealImg":"../img/works/travel-banner/sub-banner.png"
+      "workAppealText": "スクール入学後に学んだことをすぐに実践するために、早い段階で自主制作に取り組みました。"
     },
     {
       "workAppealHeading": "2.テーマ選び",
       "workAppealText": "実践の場としてクラウドワークスでの案件応募に挑戦してみようと思い、調査した結果「旅行」「カフェ」「美容」など多く求められるテーマがあることに気付き、その中で自分も好きな「旅行」を表現することに決めました。"
+    }
+  ],
+  "workDesignSection":[
+    {
+      "workDesignHeading": "複数デザインの作成",
+      "workDesignText": "いくつかのレイアウトやアイデアを形にしながら色々なデザインを考えました。",
+      "workDesignImg":"../img/works/travel-banner/sub-banner.png"
+    }
+  ],
+  "workSkillSection":[
+    {
+      "workSkillHeading": "Figma・Canva",
+      "workSkillText": "Figmaの基本的な使い方をカリキュラムに沿って学習し、Canvaは自己学習で取り組みました。"
     }
   ]
 }
