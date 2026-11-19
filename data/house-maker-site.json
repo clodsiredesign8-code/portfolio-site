@@ -1,0 +1,38 @@
+{
+  "workTitle": "ハウスメーカーサイト",
+  "workOnePhrase": "子供を想う夫婦が「マイホーム相談をしてみよう！」と思えるようなサイトのデザインカンプを制作しました。",
+  "workOverviewImg": "../img/works/house-maker-site/thumbnail.png",
+  "workCategory": "模擬案件",
+  "workPeriod": "2026年7月・3週間",
+  "workRole": "デザイン",
+  "workSkill": "Figma",
+  "workPurpose": "Webを通した新規顧客の獲得、お問い合わせ数の増加、自社製品の認知度と信頼度向上",
+  "workTarget": "子供がおりマイホームに興味を持っている共働きの30〜50代夫婦。SNSで情報収集し、土日に住宅相談会へ行くことを検討している方。",
+  "workAppealSection": [
+    {
+      "workAppealHeading": "ユーザー理解と情報設計",
+      "workAppealText": "子供のいる夫婦を想定し、ユーザー像や利用場面を考えながらサイトの内容を設計しました。",
+      "workAppealImg": "../img/works/house-maker-site/appeal-1.png"
+    },
+    {
+      "workAppealHeading": "施工実績の絞り込み機能",
+      "workAppealText": "サイトの目的を踏まえ、ユーザーが希望に近い施工実績を探しやすいよう絞り込み機能を設計しました。",
+      "workAppealImg": "../img/works/house-maker-site/appeal-2.png"
+    }
+  ],
+  "workDesignSection": [
+    {
+      "workDesignHeading": "色・フォント・レイアウト",
+      "workDesignText": "色やフォント、余白にルールを設け、見やすさと統一感を意識してデザインしました。",
+      "workDesignImg": "../img/works/house-maker-site/design-1.png"
+    }
+  ],
+  "workSkillSection": [
+    {
+      "workSkillHeading": "Figma",
+      "workSkillText": "トップ、実績一覧、実績詳細、お問い合わせ完了の4ページのデザインカンプとプロトタイプを作成しました。"
+    }
+  ],
+  "workPcImg": "../img/works/house-maker-site/top-pc.png",
+  "workSpImg": "../img/works/house-maker-site/top-sp.png"
+}

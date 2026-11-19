@@ -1,0 +1,32 @@
+{
+  "workTitle": "コーポレートサイト",
+  "workOnePhrase": "HTML/CSSの学習課題として、架空の企業「SocialTech」のコーポレートサイトを制作しました。",
+  "workOverviewImg": "../img/works/corporate-site/thumbnail.png",
+  "workCategory": "学習課題",
+  "workPeriod": "2026年8月",
+  "workRole": "コーディング",
+  "workSkill": "HTML/CSS",
+  "workPurpose": "",
+  "workTarget": "",
+  "workAppealSection": [
+    {
+      "workAppealHeading": "HTML/CSSによる実装",
+      "workAppealText": "カリキュラムに沿って各セクションの構造を理解しながら、HTMLでのマークアップとCSSでのレイアウト・スタイリングを実装しました。Webページの基本構造とHTML・CSSそれぞれの役割について理解を深めました。"
+    }
+  ],
+  "workDesignSection": [
+    {
+      "workDesignHeading": "",
+      "workDesignText": "担当範囲はコーディングのみのため、デザインは行っていません。",
+      "workDesignImg": ""
+    }
+  ],
+  "workSkillSection": [
+    {
+      "workSkillHeading": "HTML/CSS",
+      "workSkillText": "HTMLによるマークアップとCSSによるレイアウト・スタイリングを実装しました。"
+    }
+  ],
+  "workPcImg": "../img/works/corporate-site/top-pc.png",
+  "workSpImg": "../img/works/corporate-site/top-sp.png"
+}

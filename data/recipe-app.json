@@ -1,0 +1,33 @@
+{
+  "workTitle": "レシピアプリ「うちのレシピ」",
+  "workOnePhrase": "自主制作としてReactを使用したレシピアプリの制作に取り組んでいます。",
+  "workOverviewImg": "../img/works/recipe-app/thumbnail.png",
+  "workCategory": "自主制作",
+  "workPeriod": "2026年10月〜制作中",
+  "workRole": "企画・設計・デザイン",
+  "workSkill": "Figma・React",
+  "workPurpose": "家庭の味や調理の工夫を世代を超えて共有・継承し、料理を通じた家族間のコミュニケーションを促進すること",
+  "workTarget": "家庭内で料理を担当する人とその家族や親",
+  "workAppealSection": [
+    {
+      "workAppealHeading": "企画・要件定義・設計から進行",
+      "workAppealText": "リーンキャンバスで企画を整理し、要件定義書を作成しました。ユースケース図・画面遷移図・デザインカンプを作り、段階的な開発を進めています。",
+      "workAppealImg": ""
+    }
+  ],
+  "workDesignSection": [
+    {
+      "workDesignHeading": "温かみと使いやすさを意識したデザイン",
+      "workDesignText": "オレンジと茶色を使った温かみのある世界観を設定しました。モバイルでの使用を想定し、読みやすさやボタンの押しやすさ、余白のルールを意識しています。",
+      "workDesignImg": ""
+    }
+  ],
+  "workSkillSection": [
+    {
+      "workSkillHeading": "Figma・React",
+      "workSkillText": "Figmaでデザインカンプを作成し、Reactでの実装に取り組んでいます。"
+    }
+  ],
+  "workPcImg": "",
+  "workSpImg": ""
+}

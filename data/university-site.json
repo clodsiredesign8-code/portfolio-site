@@ -1,0 +1,32 @@
+{
+  "workTitle": "大学サイト",
+  "workOnePhrase": "PHPの学習課題として、HTML/CSSで作成された大学サイトをWordPressのオリジナルテーマとして実装しました。",
+  "workOverviewImg": "../img/works/university-site/thumbnail.png",
+  "workCategory": "学習課題",
+  "workPeriod": "2026年9月",
+  "workRole": "PHPを使用したWordPressのオリジナルテーマ化",
+  "workSkill": "PHP・WordPress",
+  "workPurpose": "",
+  "workTarget": "",
+  "workAppealSection": [
+    {
+      "workAppealHeading": "静的ページをWordPressテーマ化",
+      "workAppealText": "既存のHTML/CSSをもとに、PHPを使用してWordPressのオリジナルテーマ化に取り組みました。"
+    }
+  ],
+  "workDesignSection": [
+    {
+      "workDesignHeading": "",
+      "workDesignText": "既存のデザインをもとに実装したため、デザインは担当していません。",
+      "workDesignImg": ""
+    }
+  ],
+  "workSkillSection": [
+    {
+      "workSkillHeading": "PHP・WordPress",
+      "workSkillText": "テンプレート階層や投稿・固定ページの表示の仕組みを学び、WebページをWordPressで管理・更新できるようにする方法について理解を深めました。"
+    }
+  ],
+  "workPcImg": "../img/works/university-site/top-pc.png",
+  "workSpImg": "../img/works/university-site/top-sp.png"
+}

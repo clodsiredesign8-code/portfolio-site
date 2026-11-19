@@ -1,0 +1,32 @@
+{
+  "workTitle": "美容液のランディングページ（LP）",
+  "workOnePhrase": "自主制作として架空の美容液「LUMEA」のランディングページを作成しました。",
+  "workOverviewImg": "../img/works/serum-lp/thumbnail.png",
+  "workCategory": "自主制作",
+  "workPeriod": "",
+  "workRole": "デザイン",
+  "workSkill": "Figma・ChatGPT（画像生成）",
+  "workPurpose": "1か月お試し商品の購入、ブランドイメージの周知",
+  "workTarget": "",
+  "workAppealSection": [
+    {
+      "workAppealHeading": "ブランドに合わせたLP設計",
+      "workAppealText": "商品のブランドコンセプトやターゲットの悩みを踏まえ、購入につながるLP構成・コピー・ビジュアルまで一貫して設計しました。"
+    }
+  ],
+  "workDesignSection": [
+    {
+      "workDesignHeading": "柔らかく上品な世界観",
+      "workDesignText": "女性向けの柔らかく上品な世界観を表現するため、AIで写真や素材を作成し、色や雰囲気の統一感を意識しました。",
+      "workDesignImg": "../img/works/serum-lp/top-pc.png"
+    }
+  ],
+  "workSkillSection": [
+    {
+      "workSkillHeading": "Figma・ChatGPT",
+      "workSkillText": "Figmaでデザインを作成し、画像素材の制作にChatGPTを活用しました。"
+    }
+  ],
+  "workPcImg": "../img/works/serum-lp/top-pc.png",
+  "workSpImg": ""
+}

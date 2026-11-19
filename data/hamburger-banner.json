@@ -1,0 +1,33 @@
+{
+  "workTitle": "ハンバーガーフェスのバナー",
+  "workOnePhrase": "",
+  "workOverviewImg": "../img/works/hamburger-banner/thumbnail.png",
+  "workCategory": "テスト案件",
+  "workPeriod": "",
+  "workRole": "デザイン",
+  "workSkill": "Canva",
+  "workPurpose": "",
+  "workTarget": "",
+  "workAppealSection": [
+    {
+      "workAppealHeading": "",
+      "workAppealText": "",
+      "workAppealImg": ""
+    }
+  ],
+  "workDesignSection": [
+    {
+      "workDesignHeading": "",
+      "workDesignText": "",
+      "workDesignImg": "../img/works/hamburger-banner/sub-banner.png"
+    }
+  ],
+  "workSkillSection": [
+    {
+      "workSkillHeading": "Canva",
+      "workSkillText": ""
+    }
+  ],
+  "workPcImg": "../img/works/hamburger-banner/thumbnail.png",
+  "workSpImg": "../img/works/hamburger-banner/sub-banner.png"
+}

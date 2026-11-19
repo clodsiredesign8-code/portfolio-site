@@ -1,0 +1,38 @@
+{
+  "workTitle": "歯科医院サイト",
+  "workOnePhrase": "患者様が安心して通える歯科医院を目指し、情報の整理からWordPressでのサイト構築まで取り組みました。",
+  "workOverviewImg": "../img/works/dental-clinic-site/thumbnail.png",
+  "workCategory": "模擬案件",
+  "workPeriod": "2026年9月・2週間",
+  "workRole": "情報設計・サイト制作",
+  "workSkill": "WordPress（Lightning）",
+  "workPurpose": "ブランド認知の強化、患者獲得の拡大、情報アクセスの向上、歯科治療に関するブログの提供",
+  "workTarget": "30〜40代の子育て世代。クリニックのある市内の住宅街に居住し、自身や家族の歯の健康管理・予防に関心がある方。",
+  "workAppealSection": [
+    {
+      "workAppealHeading": "ユーザー視点を意識したコンテンツの整理と情報設計",
+      "workAppealText": "参考となる歯科医院のWebサイトを調査し、訪問者が求める情報や確認する順序を考え、コンテンツの優先順位とページ構成を整理しました。サイトマップやページごとの情報、ページ間の導線を可視化してから制作しました。",
+      "workAppealImg": "../img/works/dental-clinic-site/appeal-1.png"
+    },
+    {
+      "workAppealHeading": "サイトの目的から逆算したコンテンツの提案",
+      "workAppealText": "診療内容に関連する症例や予防方法を紹介するブログを提案しました。WordPressの投稿機能を使い、医院側で記事を追加・更新できる仕組みを意識しました。",
+      "workAppealImg": "../img/works/dental-clinic-site/appeal-2.png"
+    }
+  ],
+  "workDesignSection": [
+    {
+      "workDesignHeading": "配色・レイアウト",
+      "workDesignText": "白をベースに青を組み合わせ、清潔感や誠実さ、信頼感を表現しました。情報のまとまりや優先順位を意識して構成し、丸みのある画像で親しみやすさと統一感を持たせています。",
+      "workDesignImg": ""
+    }
+  ],
+  "workSkillSection": [
+    {
+      "workSkillHeading": "WordPress（Lightning）",
+      "workSkillText": "ブロックエディタとテーマのパターンを活用して構築しました。医院側で情報を更新できるブログ機能を想定しています。"
+    }
+  ],
+  "workPcImg": "../img/works/dental-clinic-site/top-pc.png",
+  "workSpImg": "../img/works/dental-clinic-site/top-sp.png"
+}

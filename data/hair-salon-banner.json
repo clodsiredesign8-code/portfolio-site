@@ -1,0 +1,33 @@
+{
+  "workTitle": "美容院のバナー",
+  "workOnePhrase": "",
+  "workOverviewImg": "../img/works/hair-salon-banner/thumbnail.png",
+  "workCategory": "テスト案件",
+  "workPeriod": "",
+  "workRole": "デザイン",
+  "workSkill": "Canva",
+  "workPurpose": "予約ページへの誘導、ヘナカラーの認知度向上",
+  "workTarget": "",
+  "workAppealSection": [
+    {
+      "workAppealHeading": "",
+      "workAppealText": "",
+      "workAppealImg": ""
+    }
+  ],
+  "workDesignSection": [
+    {
+      "workDesignHeading": "",
+      "workDesignText": "",
+      "workDesignImg": "../img/works/hair-salon-banner/sub-banner.png"
+    }
+  ],
+  "workSkillSection": [
+    {
+      "workSkillHeading": "Canva",
+      "workSkillText": ""
+    }
+  ],
+  "workPcImg": "../img/works/hair-salon-banner/thumbnail.png",
+  "workSpImg": "../img/works/hair-salon-banner/sub-banner.png"
+}
