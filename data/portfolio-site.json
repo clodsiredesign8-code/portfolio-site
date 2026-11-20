@@ -4,34 +4,34 @@
   "workLink": "",
   "workOverviewImg":"../img/works/portfolio-site/thumbnail.png",
   "workCategory" : "自主制作",
-  "workPeriod": "2026年",
+  "workPeriod": "2026年11月",
   "workRole": "企画・デザイン・コーディング",
   "workSkill": "HTML/CSS・JavaScript",
-  "workPurpose": "制作実績やスキルを分かりやすく伝え、仕事のご相談やお問い合わせにつなげる",
-  "workTarget": "Webサイト制作を検討している個人・企業の担当者",
+  "workPurpose": "制作実績やスキルを分かりやすく伝えること",
+  "workTarget": "このサイトを見ていただける採用担当者の方",
   "workAppealSection":[
     {
-      "workAppealHeading": "1.作品を見つけやすく伝わりやすい構成",
-      "workAppealText": "制作実績を一覧から探しやすくし、それぞれの作品ページで制作の目的や工夫を確認できる構成にしました。"
+      "workAppealHeading": "JavaScriptによるテンプレート化",
+      "workAppealText": "元々はカリキュラムにあったポートフォリオの雛形で作成を始めましたが、見やすさや載せたい情報、レイアウトをカスタマイズして、統一感を持たせるためにテンプレートを作成することにしました。\n各作品のHTMLファイルはテンプレート用のJSファイルを読み込んでいます。\n\n【テンプレート用のJSのファイルで行っていること】\n1.作品のHTMLファイルと同じ名前のJSONファイルをfetchで取得。\n2.HTMLのテンプレートファイルもfetchで取得。\n3.それぞれidやclass名でHTML要素を指定し、.textContentや.srcなどにJSONデータの値を代入。"
     },
     {
-      "workAppealHeading": "2.統一感のあるデザイン",
-      "workAppealText": "サイト全体で色や文字、余白の使い方をそろえ、作品ごとの内容が伝わりやすいシンプルなデザインを目指しました。"
+      "workAppealHeading": "AIの活用",
+      "workAppealText": "2通りのAIの活用をしています。\n1つ目はVScodeでの作業の効率化です。Codexを使い、ファイルの作成や共通している書き換え作業など、繰り返し作業になる部分で詳細に指示をして、AIに作業してもらいました。\n2つ目はコードの相談と提案です。テンプレート化の方法もメンターの力を借りながらCahtGPTに相談し、提案されたコードを紐解きながら実装しました。やりたいことを実現するための相談役としてChatGPTを使い、実際のコーディングでは自分なりに処理内容を言語化して実装することを心掛けています。"
     }
   ],
   "workDesignSection":[
     {
-      "workDesignHeading": "情報設計とデザイン",
-      "workDesignText": "プロフィールやスキル、制作実績へスムーズにアクセスできるよう情報を整理し、作品画像を中心に内容を紹介できるレイアウトにしました。",
-      "workDesignImg":"../img/works/portfolio-site/top-pc.png"
+      "workDesignHeading": "作品ページのレイアウト",
+      "workDesignText": "転職活動で採用担当者様が知りたい情報が一目でわかるような情報構成とレイアウトにすることを意識しました。最初の雛形ではオリジナリティも少ないように感じたので、一度自分のイメージする作品ページのワイヤーフレームをFigmaで作成し、実装しました。\n\n説明内容はアピールポイント、デザイン、スキルの3項目を作り、それぞれこだわった点をわかりやすく記載できるようにしました。作品全体の画像はサイトの場合先に持ってくると説明文までのスクロール量が多くなってしまうため、ページトップにはサムネイルのみ載せて、最後に作品全体のイメージを掲載するようにしました。",
+      "workDesignImg":"../img/works/portfolio-site/design-works-layout.png"
     }
   ],
   "workSkillSection":[
     {
-      "workSkillHeading": "HTML/CSS・JavaScript",
-      "workSkillText": "HTMLでページの構造を作り、CSSでレイアウトや見た目を整えました。JavaScriptを使って作品ページの情報を表示し、共通テンプレートで管理できるようにしました。"
+      "workSkillHeading": "HTML/CSS,JavaScript",
+      "workSkillText": "スキルの説明が入ります。"
     }
   ],
   "workPcImg": "../img/works/portfolio-site/top-pc.png",
-  "workSpImg": ""
+  "workSpImg": "../img/works/portfolio-site/top-pc.png"
 }
