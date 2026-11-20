@@ -10,15 +10,15 @@
   "workTarget": "",
   "workAppealSection": [
     {
-      "workAppealHeading": "",
-      "workAppealText": "",
+      "workAppealHeading": "美容院へ利用者として訪問",
+      "workAppealText": "実際に美容院様へユーザーとして施術を受け、体験をもとに作成しました。",
       "workAppealImg": ""
     }
   ],
   "workDesignSection": [
     {
-      "workDesignHeading": "",
-      "workDesignText": "",
+      "workDesignHeading": "2種類のバナーを作成",
+      "workDesignText": "特色だと感じた美容院でありながらリラクゼーションのような雰囲気が伝わるよう、目を閉じて心地よさを感じている女性の素材を使用しています。",
       "workDesignImg": "../img/works/hair-salon-banner/sub-banner.png"
     }
   ],
@@ -28,6 +28,6 @@
       "workSkillText": ""
     }
   ],
-  "workPcImg": "../img/works/hair-salon-banner/thumbnail.png",
-  "workSpImg": "../img/works/hair-salon-banner/sub-banner.png"
+  "workPcImg": "",
+  "workSpImg": ""
 }

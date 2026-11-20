@@ -1,13 +1,13 @@
 {
   "workTitle": "ハンバーガーフェスのバナー",
-  "workOnePhrase": "",
+  "workOnePhrase": "グルメ・期間限定フェアというテーマでハンバーガーフェスのバナーを作成しました。",
   "workOverviewImg": "../img/works/hamburger-banner/thumbnail.png",
   "workCategory": "テスト案件",
-  "workPeriod": "",
+  "workPeriod": "2026年7月後半・5日間",
   "workRole": "デザイン",
   "workSkill": "Canva",
-  "workPurpose": "",
-  "workTarget": "",
+  "workPurpose": "ハンバーガーフェスへの来場とイベント認知度の向上",
+  "workTarget": "がっつり系グルメが好きな人、Instagramをよく見るトレンドに敏感な20~30代の女性",
   "workAppealSection": [
     {
       "workAppealHeading": "",
@@ -17,8 +17,8 @@
   ],
   "workDesignSection": [
     {
-      "workDesignHeading": "",
-      "workDesignText": "",
+      "workDesignHeading": "ターゲットに合わせた2種類のバナーを作成",
+      "workDesignText": "1枚目はハンバーガーのおいしさやボリューム感が一目で伝わることを重視して制作しました。写真を大きく配置し、シズル感を前面に出すことで、「食べたい！」と思ってもらえることを狙っています。\n2枚目はInstagramで見かける投稿を意識して制作しました。1枚目でイベントに興味を持ってもらい、2枚目以降で各ハンバーガーを紹介するカルーセル投稿を想定しています。",
       "workDesignImg": "../img/works/hamburger-banner/sub-banner.png"
     }
   ],
@@ -28,6 +28,6 @@
       "workSkillText": ""
     }
   ],
-  "workPcImg": "../img/works/hamburger-banner/thumbnail.png",
-  "workSpImg": "../img/works/hamburger-banner/sub-banner.png"
+  "workPcImg": "",
+  "workSpImg": ""
 }
