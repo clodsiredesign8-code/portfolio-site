@@ -31,6 +31,16 @@ async function init() {
   // 手順5で入れたHTMLの中のwork-titleというIdの場所の中身を、JsonデータのworkTitleというキーの値にする
   document.getElementById("work-title").textContent = data.workTitle;
   document.getElementById("work-one-phrase").textContent = data.workOnePhrase;
+  // ボタンの表示とURL
+  const workLink = document.getElementById("work-link");
+  if(data.workLink) {
+    workLink.href = data.workLink;
+    workLink.hidden = false;
+  } else {
+    workLink.hidden = true;
+  }
+  
+  
 
   // サムネイル
   document.getElementById("work-overview-img").src = data.workOverviewImg;

@@ -1,6 +1,7 @@
 {
   "workTitle": "レシピアプリ「うちのレシピ」",
   "workOnePhrase": "自主制作としてReactを使用したレシピアプリの制作に取り組んでいます。",
+  "workLink": "https://uchi-no-recipe-eight.vercel.app/",
   "workOverviewImg": "../img/works/recipe-app/thumbnail.png",
   "workCategory": "自主制作",
   "workPeriod": "2026年10月〜制作中",

@@ -44,6 +44,10 @@ article {
   border-radius: 4px;
 }
 
+#work-link[hidden] {
+  display: none;
+}
+
 /* ======================サムネイル・作品概要セクション======================== */
 #work-overview-section {
   display: grid;

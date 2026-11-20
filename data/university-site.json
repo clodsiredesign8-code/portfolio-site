@@ -1,6 +1,7 @@
 {
   "workTitle": "大学サイト",
   "workOnePhrase": "PHPの学習課題として、HTML/CSSで作成された大学サイトをWordPressのオリジナルテーマとして実装しました。",
+  "workLink": "https://maiworks01.xsrv.jp/samurai-university/",
   "workOverviewImg": "../img/works/university-site/thumbnail.png",
   "workCategory": "学習課題",
   "workPeriod": "2026年9月",

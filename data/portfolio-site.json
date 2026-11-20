@@ -1,0 +1,37 @@
+{
+  "workTitle": "ポートフォリオサイト",
+  "workOnePhrase": "これまでの制作実績やスキルを紹介する、自身のポートフォリオサイトを企画・制作しました。",
+  "workLink": "",
+  "workOverviewImg":"../img/works/portfolio-site/thumbnail.png",
+  "workCategory" : "自主制作",
+  "workPeriod": "2026年",
+  "workRole": "企画・デザイン・コーディング",
+  "workSkill": "HTML/CSS・JavaScript",
+  "workPurpose": "制作実績やスキルを分かりやすく伝え、仕事のご相談やお問い合わせにつなげる",
+  "workTarget": "Webサイト制作を検討している個人・企業の担当者",
+  "workAppealSection":[
+    {
+      "workAppealHeading": "1.作品を見つけやすく伝わりやすい構成",
+      "workAppealText": "制作実績を一覧から探しやすくし、それぞれの作品ページで制作の目的や工夫を確認できる構成にしました。"
+    },
+    {
+      "workAppealHeading": "2.統一感のあるデザイン",
+      "workAppealText": "サイト全体で色や文字、余白の使い方をそろえ、作品ごとの内容が伝わりやすいシンプルなデザインを目指しました。"
+    }
+  ],
+  "workDesignSection":[
+    {
+      "workDesignHeading": "情報設計とデザイン",
+      "workDesignText": "プロフィールやスキル、制作実績へスムーズにアクセスできるよう情報を整理し、作品画像を中心に内容を紹介できるレイアウトにしました。",
+      "workDesignImg":"../img/works/portfolio-site/top-pc.png"
+    }
+  ],
+  "workSkillSection":[
+    {
+      "workSkillHeading": "HTML/CSS・JavaScript",
+      "workSkillText": "HTMLでページの構造を作り、CSSでレイアウトや見た目を整えました。JavaScriptを使って作品ページの情報を表示し、共通テンプレートで管理できるようにしました。"
+    }
+  ],
+  "workPcImg": "../img/works/portfolio-site/top-pc.png",
+  "workSpImg": ""
+}
